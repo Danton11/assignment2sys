@@ -1,0 +1,1 @@
+cmd_/home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.ko /home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.o /home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.mod.o
