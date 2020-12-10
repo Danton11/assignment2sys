@@ -652,13 +652,6 @@ deps_/home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.o := \
   include/uapi/linux/fcntl.h \
   arch/x86/include/uapi/asm/fcntl.h \
   include/uapi/asm-generic/fcntl.h \
-  arch/x86/include/asm/uaccess.h \
-    $(wildcard include/config/x86/intel/usercopy.h) \
-    $(wildcard include/config/debug/strict/user/copy/checks.h) \
-  arch/x86/include/asm/smap.h \
-    $(wildcard include/config/x86/smap.h) \
-  arch/x86/include/asm/uaccess_32.h \
-  /home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.h \
   include/linux/slab.h \
     $(wildcard include/config/debug/slab.h) \
     $(wildcard include/config/failslab.h) \
@@ -668,6 +661,13 @@ deps_/home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.o := \
   include/linux/kmemleak.h \
     $(wildcard include/config/debug/kmemleak.h) \
   include/linux/kasan.h \
+  arch/x86/include/asm/uaccess.h \
+    $(wildcard include/config/x86/intel/usercopy.h) \
+    $(wildcard include/config/debug/strict/user/copy/checks.h) \
+  arch/x86/include/asm/smap.h \
+    $(wildcard include/config/x86/smap.h) \
+  arch/x86/include/asm/uaccess_32.h \
+  /home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.h \
 
 /home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.o: $(deps_/home/bham/Documents/systems/exercise2/Exercise_2/charDeviceDriver.o)
 
