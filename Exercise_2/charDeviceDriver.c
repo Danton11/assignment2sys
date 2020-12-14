@@ -132,7 +132,6 @@ static ssize_t device_read(struct file *filp,   /* see include/linux/fs.h   */
 }
 
 
-
 /* Called when a process writes to dev file: echo "hi" > /dev/hello  */
 static ssize_t
 device_write(struct file *filp, const char *buff, size_t len, loff_t * off)
